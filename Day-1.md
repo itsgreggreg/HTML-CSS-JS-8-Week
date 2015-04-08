@@ -20,12 +20,12 @@ __Already have an email address? Skip this step.__<br>
  - Done
  
 ## Step 2 - Neocities
-If you already have a neocities account skip this step.
+__Already have a neocities account? Skip this step.__
 
  - Go to https://neocities.org
  - Fill in the __Sign up for free__ form
    - Make your username the same as your email address username
-   - If that is allready taken try different combinations as suggested in the (Email)[] step
+   - If that is allready taken try different combinations as suggested in the (Email)[#step-1---email] step
    - In the __tags__ section put __OperationSpark__
    - Make the __Password__ the same as your email address password
    - For __Email__ use the gmail address you just set up
