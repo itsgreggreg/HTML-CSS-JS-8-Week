@@ -66,6 +66,7 @@ In side your index.html file is the standard place-holder html that neocities gi
 <!DOCTYPE html>
 <html>
  <head>
+   <title>My Website!</title>
  </head>
  <body>
     Hello!
@@ -88,3 +89,14 @@ In side your index.html file is the standard place-holder html that neocities gi
   - It should now just say `Hello!`
 - This is a very common combination of actions for a web programmer. Copy, Paste, Save, Refresh - We are going to be doing it all the time!
   
+## Step 3 - Basic HTML
+ - Go to your neocities editor for your index.html file. And take a look at what we have in there.
+ 
+This is the minimum boilerplate that every HTML page needs. At the very top we see `<!DOCTYPE html>`. This is a very special piece of text and every html page must start with it. There are many versions of HTML and this piece of text tells the web browser what kind of html we want to use. Lucky for us to use the most modern HTML version this is all we have to write.
+
+Just below that we see the start of our actual __HTML__. HTML is made up of __elements__. Elements are made up of __tags__. Elements contain things and tags define elements. The first tag we see is `<html>` and as you can guess, this tag starts the html element that contains all the rest of our html. The next tag we see is `<head>`. The head element contains all of our website's metadata. Metadata is information __about__ our website such as relavant keywords, the site's title, what our site should look like, and other things. Next we see the `<title>` element that sets our website's title. Just below that we see the head's __closing tag__ `</head>`. Most tags in html need to be closed like this. This is so the browser knows where that tag ends. Next we see the `<body>` tag. The body tag is where all the __content__ for our website goes. Text and images and structure go here.
+
+
+
+
+
