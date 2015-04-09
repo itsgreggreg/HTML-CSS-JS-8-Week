@@ -92,11 +92,27 @@ In side your index.html file is the standard place-holder html that neocities gi
 ## Step 3 - Basic HTML
  - Go to your neocities editor for your index.html file. And take a look at what we have in there.
  
-This is the minimum boilerplate that every HTML page needs. At the very top we see `<!DOCTYPE html>`. This is a very special piece of text and every html page must start with it. There are many versions of HTML and this piece of text tells the web browser what kind of html we want to use. Lucky for us to use the most modern HTML version this is all we have to write.
+This is the minimum boilerplate that every HTML page needs. At the very top we see `<!DOCTYPE html>`. This is a very special piece of text and every html page must start with it. There are many versions of HTML and this piece of text tells the web browser what kind of html we want to use. Lucky for us, to use the most modern HTML version this is all we have to write.
 
-Just below that we see the start of our actual __HTML__. HTML is made up of __elements__. Elements are made up of __tags__. Elements contain things and tags define elements. The first tag we see is `<html>` and as you can guess, this tag starts the html element that contains all the rest of our html. The next tag we see is `<head>`. The head element contains all of our website's metadata. Metadata is information __about__ our website such as relavant keywords, the site's title, what our site should look like, and other things. Next we see the `<title>` element that sets our website's title. Just below that we see the head's __closing tag__ `</head>`. Most tags in html need to be closed like this. This is so the browser knows where that tag ends. Next we see the `<body>` tag. The body tag is where all the __content__ for our website goes. Text and images and structure go here.
+Just below that we see the start of our actual __HTML__. HTML is made up of __elements__. Elements are made up of __tags__ and sometimes __content__ and other elements. Elements contain things, and tags define elements. The first tag we see is `<html>` and as you can guess, this tag starts the html element that contains all the rest of our html. The next tag we see is `<head>`. The head element contains all of our website's metadata. Metadata is information __about__ our website such as relavant keywords, the site's title, what our site should look like, and other things. Next we see the `<title>` element that sets our website's title. Just below that we see the head's __closing tag__ `</head>`. Most tags in html need to be closed like this. This is so the browser knows where that tag ends. Next we see the `<body>` tag. The body tag is where all the __content__ for our website goes. Text and images and structure go here.
 
+### Let's write some html
 
+When we say "go inside an element", what we mean is to place your cursor inbetween the opening and closing tags. Usually these tags are on seperate lines like the body element. So to go _inside_ the body element we want to place our cursor on a line between its opening ang closing tags like so:
+~~~
+<body>
+  | <- your cursor here is inside the body element
+</body>
+~~~
 
+We are going to create a list of useful links for ourselves so we don't forget them. Make sure your cursor is inside the body element like above and type out the following:
 
+~~~~
+<ul>
+  <li><a href="https://github.com/itsgreggreg/stuff/">Class</a></li>
+</ul>
+~~~~
 
+After you have that typed out save your file using the shortcut we learned before (control + s) and then go to your website page and refresh using the shortcut we learned above: (control + r).
+
+__YEAH! DONE!__
