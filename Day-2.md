@@ -112,7 +112,7 @@ Now we're going to learn a couple more HTML element types and style them nice an
  - Delete `</div>` if it was inserted automatically.
  - No go to just **above** the `</body>` tag
  - Write `</div>`
- - The whole thing should look like this:
+ - The whole body element should look like this:
 ~~~HTML
 <body>
  <div> <!-- NEW START TAG -->
