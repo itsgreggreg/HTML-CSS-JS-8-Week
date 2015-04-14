@@ -89,7 +89,7 @@ body {
  - Now we're going to change the background declaration to make it a little more fun
  - Put your cursor at the end of the `background-color` declaration line like this:
 ~~~CSS
-background-color: papayawhip;| <- your cursor here"
+background-color: papayawhip;| <- your cursor here
 ~~~
  - And change that line to this:
 ~~~CSS
