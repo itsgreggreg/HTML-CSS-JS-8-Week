@@ -7,7 +7,7 @@ Today we are going to:
  - Create a set of usefull links on our website.
 
 ## Part 1 - Email
-__Already have an email address? Skip this step.__<br>
+__Already have an email address? Skip this part.__<br>
 
  - Go to https://gmail.com
  - Click __[ Create an account ]__
@@ -20,7 +20,7 @@ __Already have an email address? Skip this step.__<br>
  - Done
  
 ## Part 2 - Neocities
-__Already have a neocities account? Skip this step.__
+__Already have a neocities account? Skip this part.__
 
  - Go to https://neocities.org
  - Fill in the __Sign up for free__ form
@@ -62,7 +62,7 @@ In side your index.html file is the standard place-holder html that neocities gi
 ### control + c = Copy
  - Open this lesson file in a new tab
  - Highligh the following HTML with your mouse
-~~~
+~~~HTML
 <!DOCTYPE html>
 <html>
  <head>
@@ -99,7 +99,7 @@ Just below that we see the start of our actual __HTML__. HTML is made up of __el
 ### Let's write some html
 
 When we say "go inside an element", what we mean is to place your cursor inbetween the opening and closing tags. Usually these tags are on seperate lines like the body element. So to go _inside_ the body element we want to place our cursor on a line between its opening ang closing tags like so:
-~~~
+~~~HTML
 <body>
   | <- your cursor here is inside the body element
 </body>
@@ -107,7 +107,7 @@ When we say "go inside an element", what we mean is to place your cursor inbetwe
 
 We are going to create a list of useful links for ourselves so we don't forget them. Make sure your cursor is inside the body element like above and type out the following:
 
-~~~~
+~~~~HTML
 <ul>
   <li>
     <a href="https://github.com/itsgreggreg/stuff/">Class</a>
