@@ -10,3 +10,4 @@ What a time to be alive.
  - [Neocities](http://neocities.org)
  - [Web Color Names](http://html-color-codes.info/color-names/)
  - [CSS Gradient Generator](http://www.colorzilla.com/gradient-editor/)
+ - [HTML Element Reference](http://www.w3.org/TR/html-markup/elements.html)
