@@ -9,3 +9,4 @@ What a time to be alive.
 ### Misc Links
  - [Neocities](http://neocities.org)
  - [Web Color Names](http://html-color-codes.info/color-names/)
+ - [CSS Gradient Generator](http://www.colorzilla.com/gradient-editor/)
