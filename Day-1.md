@@ -6,7 +6,7 @@ Today we are going to:
  - Learn basic HTML
  - Create a set of usefull links on our website.
 
-## Step 1 - Email
+## Part 1 - Email
 __Already have an email address? Skip this step.__<br>
 
  - Go to https://gmail.com
@@ -19,7 +19,7 @@ __Already have an email address? Skip this step.__<br>
  - Click __[ No thanks ]__
  - Done
  
-## Step 2 - Neocities
+## Part 2 - Neocities
 __Already have a neocities account? Skip this step.__
 
  - Go to https://neocities.org
@@ -34,7 +34,7 @@ __Already have a neocities account? Skip this step.__
  - Click __[ Edit Site ]__
  - Done
 
-## Step 3 - Common Keyboard Shortcuts
+## Part 3 - Common Keyboard Shortcuts
 Keyboard Shortcuts generally involve holding one key down and tapping another key. Web developers use them all the time for convenience and to save time.
 
  - Go to your neocities dashboard: https://neocities.org/dashboard
@@ -89,7 +89,7 @@ In side your index.html file is the standard place-holder html that neocities gi
   - It should now just say `Hello!`
 - This is a very common combination of actions for a web programmer. Copy, Paste, Save, Refresh - We are going to be doing it all the time!
   
-## Step 3 - Basic HTML
+## Part 4 - Basic HTML
  - Go to your neocities editor for your index.html file. And take a look at what we have in there.
  
 This is the minimum boilerplate that every HTML page needs. At the very top we see `<!DOCTYPE html>`. This is a very special piece of text and every html page must start with it. There are many versions of HTML and this piece of text tells the web browser what kind of html we want to use. Lucky for us, to use the most modern HTML version this is all we have to write.
