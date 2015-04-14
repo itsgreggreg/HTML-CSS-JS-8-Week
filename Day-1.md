@@ -113,7 +113,7 @@ We are going to create a list of useful links for ourselves so we don't forget t
     <a href="https://github.com/itsgreggreg/stuff/">Class</a>
   </li>
   <li>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference"><a>Mozilla HTML Reference</a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference">Mozilla HTML Reference</a>
   </li>
 </ul>
 ~~~~
