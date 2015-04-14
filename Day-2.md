@@ -9,7 +9,7 @@ Today we are going to:
  - __Web Browser__ or __Browser__: Computer application used to view websites on the internet
  - __Website Server__ or __Server__ : A computer that is always on, waiting for web browsers to ask it for it's website.
  - __render__: The process of turning an HTML file into a website.
- - CSS: __C__ascading __S__tyle __S__heets or Styles are documents that tell a web browser what a website should look like.
+ - __CSS__: __C__ascading __S__tyle __S__heets or Styles are documents that tell a web browser what a website should look like.
  
 ## Part 1 - The web browser
 __Firefox__, __Chrome__, __Safari__, __Internet Explorer__ and others are all computer applications that billions of people around the world use to browse the internet. The main job of a web browser is very simple; ask a website server for a website, and then display that website on your computer. Underneath all websites are 3 main technologies; HTML, CSS, and Javascript. When a web browser asks a website server for a website, the server sends back just a single HTML document. This single HTML document contains __references__ to all the other information that the web browser needs to properly display the website. These references are to things like __CSS__ files, __Javascript__ files, __images__, __MP3s__, __videos__ and a few other things. The web browser then retrieves these references by asking a server for these additional files and uses them to properly __render__ the webpage.
@@ -29,7 +29,7 @@ You should see the HTML that we put there in Day 1. On the 3rd line of code we c
 
  - Put your cursor __inside__ the __head__ element, right below the __title__ element.
 Like this:
-~~~
+~~~HTML
 <head>
   <title>My Website!</title>
   | <-- Your cursor goes here!
@@ -38,7 +38,7 @@ Like this:
 
  - Now we are going to add a __link__ element that tells the web browser about a file it needs to display our website.
  - Type the following __link__ element where your cursor is:
-~~~
+~~~HTML
 <link rel="stylesheet" type="text/css" href="style.css">
 ~~~
 This link element is interesting for a few reasons. __1st:__ it doesn't have a __closing tag__. There is no `</link>` tag anywhere. __2nd:__ it doesn't have any __content__ but it has __attributes__. In HTML, an __attribute__ is a piece of information __about__ an element. Just like the __head__ is a special section __about__ the website, the __attributes__ are information about individual __elements__. In this case, we are telling the web browser that this element is a __stylesheet__ (`rel="stylesheet"`), and it is specifically __CSS__ (`type="text/css"`) and then we specify the location of this file (`href="style.css"`).
@@ -51,3 +51,17 @@ CSS files, or __C__ascading __S__tyle __S__heets or simply Styles, tell a web br
  - Go back to your dashboard and edit style.css -> https://neocities.org/site_files/text_editor/style.css
  - Select everything ( control + a )
  - And delete it ( backspace or delete )
+ - Type out the following:
+~~~CSS
+body{
+  margin: 100px;
+  background-color: papayawhip;
+  font-size: 30px;
+  color: green;
+}
+~~~
+ - Save the file (control + s)
+ - Go to your website (https://neocities.org/dashboard and click the link near the top)
+ - Refresh your website (control + r)
+
+You should see some really big letters on a tanish background. All of the colors and sizes we specified in our __CSS__ file.
