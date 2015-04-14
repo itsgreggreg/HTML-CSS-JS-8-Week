@@ -9,7 +9,7 @@ Today we are going to:
  - __Web Browser__ or __Browser__: Computer application used to view websites on the internet
  - __Website Server__ or __Server__ : A computer that is always on, waiting for web browsers to ask it for it's website.
  - __render__: The process of turning an HTML file into a website.
- - __CSS__: __C__ascading __S__tyle __S__heets or Styles are documents that tell a web browser what a website should look like.
+ - __CSS__: **C**ascading **S**tyle **S**heets or Styles are documents that tell a web browser what a website should look like.
  
 ## Part 1 - The web browser
 __Firefox__, __Chrome__, __Safari__, __Internet Explorer__ and others are all computer applications that billions of people around the world use to browse the internet. The main job of a web browser is very simple; ask a website server for a website, and then display that website on your computer. Underneath all websites are 3 main technologies; HTML, CSS, and Javascript. When a web browser asks a website server for a website, the server sends back just a single HTML document. This single HTML document contains __references__ to all the other information that the web browser needs to properly display the website. These references are to things like __CSS__ files, __Javascript__ files, __images__, __MP3s__, __videos__ and a few other things. The web browser then retrieves these references by asking a server for these additional files and uses them to properly __render__ the webpage.
@@ -46,7 +46,7 @@ This link element is interesting for a few reasons. __1st:__ it doesn't have a _
  - Save your index.html file. ( control + s )
  
 ## Part 3 - Cascading Style Sheets
-CSS files, or __C__ascading __S__tyle __S__heets or simply Styles, tell a web browser what a website should look like. They give websites their "look and feel". Let's check it out!
+CSS files, **C**ascading **S**tyle **S**heets or simply Styles, tell a web browser what a website should look like. They give websites their "look and feel". Let's check it out!
 
  - Go back to your dashboard and edit style.css -> https://neocities.org/site_files/text_editor/style.css
  - Select everything ( control + a )
