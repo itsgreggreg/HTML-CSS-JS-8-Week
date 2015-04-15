@@ -98,7 +98,7 @@ background: url(http://tinyurl.com/swirl-png);
  - Save the file and refresh your webpage.
  - You should now have an awesome swirly background!
 
-Part 4 - More Html, More Style
+## Part 4 - More Html, More Style
 Now we're going to learn a couple more HTML element types and style them nice and awesome!
  - Go back to editing your index.html file. [Link][edit-index]
  - At the top of the **body** element, just below the `<body>` tag add this (changing the text to whatever you want):
