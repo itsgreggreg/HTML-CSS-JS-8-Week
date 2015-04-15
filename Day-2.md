@@ -59,7 +59,6 @@ CSS files, **C**ascading **S**tyle **S**heets or simply Styles, tell a web brows
 body{
   margin: 100px;
   background-color: papayawhip;
-  font-size: 30px;
   color: green;
 }
 ~~~
@@ -130,3 +129,34 @@ Now we're going to learn a couple more HTML element types and style them nice an
 </body>
 ~~~
  - Save and refresh your website.
+
+## Part 5 - Default Styles
+After we save and refresh our site we can notice something really interesting and important. Different text has different sizes and diffent colors! But we only have one CSS rule! And it's supposed to apply to the whole `<body>`! Why are there different sizes and colors!? Because web browsers have **default styles** for many HTML elements. We have to override these styles if we want to them to be different.
+ - Open up style.css for editing
+ - Add a new rule for `h1` elements:
+~~~CSS
+h1 {
+  font-size: 50px;
+  color: salmon;
+}
+~~~
+ - Now add a new rule for `h2` elements:
+~~~CSS
+h2 {
+  font-size: 40px;
+  color: lavender;
+  background-color: grey;
+}
+~~~
+ - Save and refresh your website.
+ - Cool! Looks good, just a little hard to read.
+ - Let's add a CSS rule for the `<div>` element that is wrapping our content:
+~~~CSS
+div{
+  background-color: white;
+}
+~~~
+ - Save and refresh your website.
+ - Awesome! Now we can read everything on our website.
+
+**YAY DONE!**
